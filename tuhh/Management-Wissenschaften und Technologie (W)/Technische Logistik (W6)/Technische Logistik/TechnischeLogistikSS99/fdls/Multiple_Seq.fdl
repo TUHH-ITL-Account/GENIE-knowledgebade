@@ -1,0 +1,10 @@
+FDL Multiple_Seq {
+  SEQUENCE "Test Sequenz mit gleichen Schritten" := [
+	"Dies ist der erste und dritte Schritt";
+	"Dies ist Schritt zwei";
+	"Dies ist der erste und dritte Schritt";
+	"Schritt vier hier";
+	"Schritt 5 und 6";
+	"Schritt 5 und 6"
+  ]
+}

@@ -1,0 +1,12 @@
+FDL Häufige_Fördermittel_für_Fördergüter_Ex {
+  EXAMPLES "Fördergüter mit Fördermittel" := {
+    "T-Shirt" ["Hängefördertechnik"] ;
+    "EuroBox" ["Rollenförderer"] ;
+    "Paletten"  ["Gabelstapler"] ;
+    "Karosserie" ["Elektrohängebahn", "Kreisförderer"] ;
+    "Schüttgut" ["Bandförderer", "Becherwerk"] ;
+    "Container" ["Portalkräne"] ;
+  
+  }
+}
+//FDL Missbrauch

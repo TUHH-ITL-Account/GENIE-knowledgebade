@@ -1,0 +1,8 @@
+FDL Kommissioniernest_Fig {
+  FIGURE
+  FILE
+    "Kommissionierung76.png"
+  LABELS {
+    "Kommissioniernest" : (86;26) 
+  }
+}

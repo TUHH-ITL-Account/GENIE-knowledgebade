@@ -1,0 +1,12 @@
+FDL Schuettelrutsche_Char  {
+  CHAR "Schüttelrutsche" ["spezifisch", "Fördermittel", "Stetigförderer", "angetrieben"] := {
+     "Arbeitsprinzip: Gleitverfahren";
+     "Schüttgut bewegt sich nach vorne beim Rinnenhingang(Reibschluss)";
+     "Beim Rinnenrücklauf hebt sich der Reibschluss auf und das Gut bewegt sich aufgrund der Massenkräfte nach vorne";
+     "Fördergut hebt nicht ab (Wurfkennwert Γ < 1)";
+     "Vorteilhaft ist die einfache Bauweise";
+     "Nachteile sind starke Betriebsgeräusche und Schwingungen"
+  }
+}
+
+//Vorlesung Fördern_Stetigförderer, Folie 51, TL 2023

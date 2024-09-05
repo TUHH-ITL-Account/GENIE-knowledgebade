@@ -1,0 +1,20 @@
+FDL Massenstrom2_Eq {
+  EQUATION m^^{.} = V^^{.} * @rho_{"s"}
+  WITH:
+    ALIASES:
+       m^^{.} = "Massenstrom";
+       V^^{.} = "Volumenstrom";
+       @rho_{"s"} = "Schüttdichte";
+
+    SPECIFICATIONS:
+       m^^{.} = "mass" / "time";
+       V^^{.} = "length"^3 / "time";
+       @rho_{"s"} = "mass"/"length"^3;
+
+    REFERENCES:
+       m^^{.} = 2 - 150 kg/s IN FLOAT[1];
+       V^^{.} = 0.2 - 1 m^3/s IN FLOAT[2];
+       @rho_{"s"} = 10 - 150 kg/m^3 IN FLOAT[0];
+}
+// Vorlesung: Stetigförderer, Folie: 13, TL SS23
+//Vgl. Formelsammlung Seite 2

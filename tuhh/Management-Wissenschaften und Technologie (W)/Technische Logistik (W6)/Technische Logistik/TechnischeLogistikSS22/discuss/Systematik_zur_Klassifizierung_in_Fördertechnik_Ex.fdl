@@ -1,0 +1,6 @@
+FDL Systematik_zur_Klassifizierung_in_Fördertechnik_Ex {
+  EXAMPLES "Systematik zur Klassifizierung in Fördertechnik" := {
+    "Stetigförderer" {PROPERTIES:["Flurgebunden" ,"Flurfrei" ,"Ortsfest","Zugmittel","Abwälzung","Schwerkraft"]};
+  "Unstetigförderer" {PROPERTIES:["Flurgebunden","Flurfrei","Aufgeständert","Freiverfahrbar","Geführt verfahrbar","ortsfest","Einzelbetrieb","Muskelkraft"]}
+  }
+}

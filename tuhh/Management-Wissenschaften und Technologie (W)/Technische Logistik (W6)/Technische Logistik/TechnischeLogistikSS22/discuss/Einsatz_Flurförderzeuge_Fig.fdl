@@ -1,0 +1,12 @@
+FDL Einsatz_Flurförderzeuge_Fig {
+  FIGURE
+  FILE
+    "Kommissionierung55_1.png"
+  LABELS {
+    "Transportmittel" : (12;34) ;
+    "Transportroute" : (54;122) ;
+    "Transportgegenstand" : (0;0)
+  }
+}
+//irgendwas stimmt hier nicht
+// Vorlesung: Komissionieren , Folie: 58, TL SS23

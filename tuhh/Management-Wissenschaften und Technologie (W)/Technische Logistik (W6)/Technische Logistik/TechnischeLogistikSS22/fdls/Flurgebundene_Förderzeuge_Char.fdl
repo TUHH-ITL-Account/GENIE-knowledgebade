@@ -1,0 +1,15 @@
+FDL Flurgebundene_Förderzeuge_Char {
+  CHAR "Flurgebundene Förderzeuge" ["allgemein", "Fördermittel", "Stetigförderer", "Unstetigförderer"] := {
+    "Ermöglichen horizontalen und ggf. horizontal-vertikalen Transport";
+    "Der Boden ist sowohl Verfahrebene für das Förderzeug als auch Transportebene für das Fördergut";
+    "Zu ihnen zählen u.a. Gabelstapler";
+    "Zu ihnen zählen u.a. Fahrerlose Transportsysteme";
+    "Zu ihnen zählen u.a. Handhubwagen";
+    "Zu ihnen zählen u.a. Routenzug";
+    }
+    OPPOSES {
+    "Aufgeständerte_Förderzeuge_Char";
+    "Flurfreie_Förderzeuge_Char"
+  }
+}
+// Vorlesung: Systematik, Folie: 11, TL SS23

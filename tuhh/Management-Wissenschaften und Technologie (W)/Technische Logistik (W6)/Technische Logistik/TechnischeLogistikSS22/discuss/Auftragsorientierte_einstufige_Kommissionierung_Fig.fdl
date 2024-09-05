@@ -1,0 +1,9 @@
+FDL auftragsorientierte_einstufige_Kommissionierung_Fig {
+  FIGURE
+  FILE
+    "Kommissionierung43.png"
+  LABELS {
+    "Auftragsorientiert" : (220;24)
+  }
+}
+//offenichtlich ungeeignet; wieder aufnehmen wenn bildliche Bsp drin sind

@@ -1,0 +1,8 @@
+FDL Kom_Hochregal_Fig {
+  FIGURE
+  FILE
+    "Kommissionierung79.png"
+  LABELS {
+    "Kommissionieren im Hochregal" : (119;30) 
+  }
+}

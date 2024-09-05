@@ -1,0 +1,12 @@
+FDL Kreisförderer_Char  {
+  CHAR "Kreisförderer" ["spezifisch", "Fördermittel", "Stetigförderer"] := {
+      "Gut für große, innerbetriebliche Materialflüsse, aufgrund guter Automatisierbarkeit";
+      "Fördermenge: 200 bis 300 t/h";
+      "Stücklast: 10 bis 200 kg";
+      "Förderlänge: bis 2.000 m";
+      "Förderhöhe: bis 30 m";
+      "Kettengeschwindigkeit: 0,1 bis 0,5 m/s";
+      "Einsatzgebiet: Automobilindustrie, Lebensmittelindustrie, Versandhäuser"
+  }
+}
+//Vorlesung Fördern_Stetigförderer, Folie 55, TL SS23

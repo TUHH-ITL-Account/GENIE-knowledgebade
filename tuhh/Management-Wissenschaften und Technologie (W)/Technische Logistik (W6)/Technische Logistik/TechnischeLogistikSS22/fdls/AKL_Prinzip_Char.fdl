@@ -1,0 +1,10 @@
+FDL AKL_Prinzip_Char {
+  CHAR "Prinzip des AKL" ["spezifisch", "Lager", "Regallager"] := {
+    "Die unteren Regalebenen bilden die Bereitstellplätze für die Kommissionierung";
+    "In den oberen Regalebenen wird Nachschub vorgehalten";
+    "Behälter für Schnelldreher werden in festgelegten Kanälen bereitgestellt und nicht zurückgelagert";
+    "Behälter für Langsam-/Mittelschnelldreher werden wieder eingelagert";
+    "Die Bearbeitung findet an Ausschleusungen (Bahnhöfen) statt"
+  }
+}
+// Vorlesung: Komissionieren, Folie: 95, TL SS23

@@ -1,0 +1,13 @@
+FDL Power_und_Free_Förderer_Char {
+  CHAR "Power & Free Förderer" ["spezifisch", "Fördermittel", "Stetigförderer", "angetrieben"] := {
+     "Es handelt sich um Kreisförderer mit getrennten Zug- und Traglaufwerken";
+     "Auf der oberen Bahn läuft die Transportkette";
+     "Auf der unteren Bahn können die Traglaufwerke angehängt werden";
+     "Lastlaufwerke können durch Mitnehmer an der Kette ein- und ausgekoppelt werden";
+     "Mehrere Förderkreisläufe können mit Weichen verbunden werden";
+     "Ermöglicht flurfreie Förderung";
+     "Sowohl Puffer- als auch Verteilsysteme sind machbar";
+     "Zweibahnsysteme, die flexibel Lastlaufwerke ein- und auskoppeln können"
+  }
+}
+//Vorlesung Fördern_Stetigförderer, Folie 64, TL 2023

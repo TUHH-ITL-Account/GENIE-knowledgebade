@@ -1,0 +1,12 @@
+FDL Vertikalförderer_Char {
+  CHAR "Vertikalförderer" ["allgemein", "Fördermittel", "Stetigförderer", "Unstetigförderer"] := {
+    "Übernehmen gleiche Aufgaben wie Aufzüge, sind jedoch konstruktiv auf ein bestimmtes Fördergut abgestimmt";
+    "Transportieren Ladungsträger, z.B. Paletten";
+    "Das Be- und Entladen wird automatisch durchgeführt";
+    "Die Konstruktion ähnelt einem Seilaufzug";
+    "Da sie automatisch geladen werden, fallen sie nicht unter die strengen Aufzugrichtlinien";
+    "Im Einlaufbereich werden die Fördergüter vereinzelt und die Kontur kontrolliert";
+    "Sind mit einem Hubwagen ausgestattet, der eine flexible Anpassung an den Einsatzfall ermöglicht"
+  }
+}
+// Vorlesung: Unstetigförderer, Folie: 155, TL SS23

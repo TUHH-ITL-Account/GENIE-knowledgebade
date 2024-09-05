@@ -1,0 +1,22 @@
+FDL Nennleistung_des_Antriebs_Eq {
+  EQUATION P_{"N"} = (F_{"W"} * v) / @eta
+  WITH:
+    ALIASES:
+      P_{"N"} = "Nennleistung des Antriebs";
+      F_{"W"} = "Kraft zur Überwindung des Gesamtwiderstandes des Fördersystems";
+      @eta = "Wirkungsgrad des Antriebs";
+      v = "Fördergeschwindigkeit";
+
+    SPECIFICATIONS:
+      P_{"N"} = "W";
+      v = "length"/"time";
+      F_{"W"} = "N";
+
+    REFERENCES:
+      P_{"N"} = 100 - 8000 W IN FLOAT[0];
+      v = 0.3 - 3 m / s IN FLOAT[1];
+      F_{"W"} = 100 - 4000 N IN FLOAT[0];
+      @eta = 0.6 - 0.9 IN FLOAT[2];
+}
+// Vorlesung: Stetigförderer, Folie: 32, TL SS23
+//Vgl. Formelsammlung Seite 3

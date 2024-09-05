@@ -1,0 +1,8 @@
+FDL Schwerkraftrollenbahn_Char  {
+  CHAR "Schwerkraftrollenbahn" ["spezifisch", "Fördermittel", "Stetigförderer", "nicht angetrieben"] := {
+     "Der Aufbau ist wie der einer angetriebenen Rollenbahn, nur ohne Elemente zur Kraftübertragung (z.B. Ketten oder Riemen)";
+     "Die Neigung soll ein sicheres Anlaufen ermöglichen und zu hohe Fördergeschwindigkeiten ausschließen";
+     "Die Neigung beträgt meist 2-5 %, hängt aber von mehreren Parametern ab (z.B. Reibung, Gutgewicht, Material)"
+  }
+}
+//Vorlesung Fördern_Stetigförderer, Folie 83, TL 2023

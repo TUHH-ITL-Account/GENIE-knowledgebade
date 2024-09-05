@@ -1,0 +1,11 @@
+FDL Materialflusssystem_Vorgang4_Fig {
+  FIGURE
+  FILE
+    "Kommissionierung32.png"
+  LABELS {
+    "Materialflusssystem" : (558;23) ;
+    "Manuell / Einzelstückgut" : (118;185) ;
+    "Mechanisiert / Sammelstückgut" : (539;183);
+    "Automatisiert / Einzelstückgut" : (984;184)
+  }
+}

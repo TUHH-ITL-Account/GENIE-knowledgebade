@@ -1,0 +1,24 @@
+FDL Raumnutzungsgrad_Eq {
+  EQUATION n_{"R"} = ( ( f_{"NL"} * h_{"Re"} ) / ( f_{"BL"} * h_{"H"} ) ) * 100
+  WITH:
+    ALIASES:
+      n_{"R"} = "Raumnutzungsgrad";
+      f_{"NL"} = "Nettolagerfläche";
+      f_{"BL"} = "Bruttolagerfläche";
+      h_{"Re"} = "Höhe des Regals";
+      h_{"H"} = "Hallenhöhe";
+
+    SPECIFICATIONS:
+      f_{"NL"} = "length"^2;
+      f_{"BL"} = "length"^2;
+      h_{"Re"} = "length";
+      h_{"H"} = "length";
+
+    REFERENCES:
+      n_{"R"} = 0-100 "Prozent" IN FLOAT[2];
+      f_{"NL"} = 200-350 m^2 IN FLOAT[0];
+      f_{"BL"} = 400-500 m^2 IN FLOAT[0];
+      h_{"Re"} = 9-11 m IN FLOAT[0];
+      h_{"H"} = 12-15 m IN FLOAT[0];
+}
+// Tutorium 9, Folie: 14, TL2023

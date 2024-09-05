@@ -1,0 +1,3 @@
+FDL Materialflusssystem_Vorgang7_Def {
+  DEFINITION "Rücktransport angebrochener Lagereinheiten" := " Rücktransport angebrochener Lagereinheiten. Bei keiner Bewegung verbeleibt die Lagereinheit bis zur Entnahme aller Artikel am Kommissionierplatz."
+}

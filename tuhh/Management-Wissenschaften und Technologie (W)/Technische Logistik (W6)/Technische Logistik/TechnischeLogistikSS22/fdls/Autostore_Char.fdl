@@ -1,0 +1,16 @@
+FDL Autostore_Char {
+  CHAR "Autostore" ["spezifisch", "Lager", "Regallager"] := {
+    "Dynamische Lagerung: es stehen Behälter direkt übereinander im Behälterregal. Der Zugriff auf die Behälter erfolgt durch Roboter mit Hebevorrichtung";
+    "Rasterhöhe bis 5,4m";
+    "Standardisierte Behälter";
+    "Geringer Energieverbrauch (<100W/Roboter)";
+    "Der Einsatz von ca. 5 Robotern entspricht dem eines RGB";
+    "Besitzen einen hohen Volumennutzungsgrad";
+    "Roboter holen mit einer Hebevorrichtung die Behälter im Regalschacht nach oben und lagern aus oder um";
+    "Bauartbedingt LIFO. FIFO wird durch ständiges Umlagern gewährleistet";
+    "Langsamdreher ordnen sich unten, Schnelldreher oben an";
+    "Große Artikelanzahl mit kleinen Mengen und geringen Gewichten (max. 30 Kg)";
+    "Sind geeignet bei einem Zugriffschutz"
+  }
+}
+//Vorlesung Lagerlogistik, Folie 34, TL SS23

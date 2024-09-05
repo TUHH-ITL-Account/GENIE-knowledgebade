@@ -1,0 +1,7 @@
+FDL Ladehilfsmittel_Ex {
+  EXAMPLES "Ladehilfsmittel" := {
+    "Tragende Ladehilfsmittel" {PROPERTIES:["Unterstützen das Ladegut von unten"]} ;
+    "Umschließende Ladehilfsmittel" {PROPERTIES:["Stützen bzw. sichern das Ladegut von der Seite und sind zumeist stapelbar"]} ;
+    "Abschließende Ladehilfsmittel" {PROPERTIES:["Bieten eine allseitige Umrandung"]}
+  }
+}

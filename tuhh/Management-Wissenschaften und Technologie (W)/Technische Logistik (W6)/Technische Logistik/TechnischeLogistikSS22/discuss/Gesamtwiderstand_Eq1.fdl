@@ -1,0 +1,14 @@
+FDL Gesamtwiderstand_Eq1  {
+  EQUATION K_{"FW"} = z_{"UGES"} * (M_{"MLF"} * l_{"LF"} + M_{"MLG"} * l_{"LG"}) * g_{"g"} + M_{"MLG"} * g_{"g"} * l_{"LG"} *  w_{"SIN"}
+  WITH:
+    ALIASES:
+      K_{"FW"} = "Kraft zur Überwindung des Gesamtwiderstandes des Fördersystems";
+      M_{"MLF"} = "auf Längeneinheit bezogene Eigenlast der Bauteile des Förderers";
+      M_{"MLG"} = "auf die Längeneinheit bezogene Gutlast";
+      z_{"UGES"} = "Gesamtreibungszahl des Fördersystems";
+      g_{"g"} = "Erdbeschleunigung";
+      l_{"LF"} = "Länge des Förderbandes";
+      l_{"LG"} = "Länge der Strecke, über die das Gut transportiert wird";
+      w_{"SIN"} = "sin(alpha)";
+}
+//fehlt spec + ref

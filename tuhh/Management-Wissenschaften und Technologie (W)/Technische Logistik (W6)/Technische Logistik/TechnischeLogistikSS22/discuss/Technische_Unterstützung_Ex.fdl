@@ -1,0 +1,6 @@
+FDL Technische_Unterstützung_Ex {
+  EXAMPLES "informationstechnische Unterstützung des Kommissionierers" := {
+    "Hören" {PROPERTIES:["Pick by Voice"]} ;
+    "Bandförderer" {PROPERTIES:["Pick by List","Stationäres Terminal","Mobiles Terminal", "Pick by Vision","Pick by Light"]}
+  }
+}

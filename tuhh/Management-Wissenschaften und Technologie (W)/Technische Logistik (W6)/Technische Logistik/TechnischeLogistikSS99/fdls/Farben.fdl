@@ -1,0 +1,8 @@
+FDL Farben {
+  EXAMPLES "Primär Farben" := {
+    "Rot" {IMAGES:["rot.png"]} ;
+    "Gelb" {IMAGES:["gelb.png"]};
+    "Blau"  {IMAGES:["blau.png"]}
+  }
+}
+// Dev-Debugging Fdl

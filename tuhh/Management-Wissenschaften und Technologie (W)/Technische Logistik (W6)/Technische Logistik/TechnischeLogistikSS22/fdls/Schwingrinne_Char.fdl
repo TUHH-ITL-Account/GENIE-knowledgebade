@@ -1,0 +1,14 @@
+FDL Schwingrinne_Char {
+  CHAR "Schwingrinne" ["spezifisch", "Fördermittel", "Stetigförderer", "angetrieben"] := {
+     "Arbeitsprinzip: Wurfprinzip";
+     "Bewegt sich bei Rinnenhingang nach oben und bei Rinnenrücklauf nach unten";
+     "Beim Rinnenrücklauf ist die Vertikalbewegung schneller als die Erdbeschleunigung (Wurf)";
+     "Fördergut hebt ab (Wurfkennwert Γ ≥ 1)";
+     "Vorteilhaft ist der geringere Energieverbrauch";
+     "Vorteilhaft ist die geringere Geräuschemission";
+     "Vorteilhaft ist die kontinuierliche Beschleunigung";
+     "Die kompliziertere Bauweise des Förderers ist ein Nachteil"
+  }
+}
+
+//Vorlesung Fördern_Stetigförderer, Folie 51, TL 2023

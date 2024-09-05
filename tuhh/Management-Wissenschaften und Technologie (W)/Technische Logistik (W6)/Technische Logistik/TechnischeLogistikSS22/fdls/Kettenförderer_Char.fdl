@@ -1,0 +1,9 @@
+FDL Kettenförderer_Char  {
+  CHAR "Kettenförderer" ["spezifisch", "Stetigförderer", "angetrieben"] := {
+      "Die Kettenglieder sind durch Stahlbolzen flexibel miteinander verbunden, sodass eine variable Streckenführung mit horizontalen und vertikalen Kurven möglich ist";
+      "Zur Reduzierung der Reibung wird die Kette auf einer Gleitleiste im Streckenprofil geführt";
+      "Die einzelnen Komponenten sind modular gestaltet und können kombiniert werden";
+      "Einsatzgebiete: Reinräume und Lebensmittelindustrie, Verkettung von Arbeitsplätzen, Zu- und Abführung von Verpackungen"
+  }
+}
+// Vorlesung: Stetigförderer, Folie: 131, TL SS23

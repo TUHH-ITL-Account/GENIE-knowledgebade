@@ -1,0 +1,24 @@
+FDL Stetigförderer_Ex {
+  EXAMPLES "Stetigförderer" ["spezifisch", "Fördermittel", "Maschine"] := {
+    "Rollenbahn" {PROPERTIES:["aufgeständert","ortsfest","Abwälzung"]} ;
+    "Bandförderer" {PROPERTIES:["aufgeständert","ortsfest","Zugmittel"]} ;
+    "Becherwerk" ;
+    "Schneckenförderer" ;
+    "Kreisförderer" ;
+    "Skids" ;
+    "Rutsche";
+    "Schwingrinne"; 
+    "Schüttelrutsche";
+    "Vollschnecke";
+    "Bandschnecke"; 
+    "Segmentschnecke";
+    "Schwerkraftrollenförderer";
+    "Power-and-Free";
+    "Kettenförderer";
+    "Kratzförderer";
+    "Trogkettenförderer"
+  }
+  OPPOSES {
+    "Unstetigförderer_Ex"
+  }
+}

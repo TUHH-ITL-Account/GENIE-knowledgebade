@@ -1,0 +1,9 @@
+FDL Anwendung_Fahrprofile_Ex {
+  EXAMPLES "Anwendung der Fahrprofile" := {
+    "Bei Berechnung der gesamten Strecke für einen Beschleunigungs- und einen Bremsvorgang, unter Verwendung der maximal zu erreichenden Geschwindigkeit v𝑚𝑎𝑥, ergibt sich die Strecke zu:" ["s für Beschl. und Brems. = v𝑚𝑎𝑥^2 / a"] ;
+    "Vergleicht man nun den benötigten Weg s für Beschl. und Brems. mit der zur Verfügung stehenden Strecke, so muss für das Fahrprofil Standardfahrrampe gelten:" ["s (Verfügbar) >= s (Beschl. und Brems.) und damit s (Verfügbar) >= v𝑚𝑎𝑥^2 / a"];
+    "Für das Fahrprofil spitze Rampe muss hingegen gelten:" ["s (Verfügbar) < s (Beschl. und Brems.) und damit s (Verfügbar) < v𝑚𝑎𝑥^2 / a"]
+  }
+}
+
+//sehr dubiose Übertragung einer praktischen Anwendung in FDL

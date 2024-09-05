@@ -1,0 +1,14 @@
+FDL Schneckenförderer_TO {
+  TRADE-OFF "Schneckenförderer" :=
+  + {"Einfache Konstruktion, leichte Wartung und geringer Raumbedarf";
+    "Aufgabe und Abgabe an beliebiger Stelle";
+	"Staubfreier Transport im geschlossenen Trog";
+	"Guter Einbau in automatische Förder- und Fertigungseinrichtungen";
+	"Geringe Störanfälligkeit";
+	"Zusätzlicher Mischeffekt bei Band- und Rührschnecke"}
+  - {"Relativ hoher Energieverbrauch";
+    "Verschleiß von Schnecke und Trog";
+	"Gefahr des Festklemmens von Fördergut (Verstopfungsgefahr)";
+	"Zerkleinern und Zerreiben von Fördergut möglich"}
+}
+//Vorlesung Fördern_Stetigförderer, Folie 47, TL 2023

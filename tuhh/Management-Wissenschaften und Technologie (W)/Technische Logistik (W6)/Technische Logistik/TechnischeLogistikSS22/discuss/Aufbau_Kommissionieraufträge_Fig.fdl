@@ -1,0 +1,12 @@
+FDL Aufbau_Kommissionieraufträge_Fig {
+  FIGURE
+  FILE
+    "Kommissionierung17.png"
+  LABELS {
+    "Kundenauftrag" : (61;111) ;
+    "Ein Kommissionierauftrag je Kundenauftrag" : (384;90) ;
+    "N Kommissionieraufträge je Kundenauftrag" : (701;29)
+  }
+}
+
+//Was genau soll hier das Wissen sein. Ich würde vermuten, es ist hier nicht akkurat widergespiegelt.

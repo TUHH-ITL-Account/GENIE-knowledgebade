@@ -1,0 +1,12 @@
+FDL Schwerkraftrollenbahn_TO {
+  TRADE-OFF "Schwerkraftrollenbahn" :=
+  + {"Einfache und flexible Montage";
+     "Geringer Wartungsaufwand";
+	   "Geringe Investitions- und Betriebskosten";
+	   "Gut mit anderen Förderern kombinierbar"
+	}
+  - {"Für lange Förderwege ungeeignet"
+	}
+}
+
+//Vorlesung Fördern_Stetigförderer, Folie 83, TL 2023

@@ -1,0 +1,16 @@
+FDL Rollenbahnen_Char {
+  CHAR "Rollenbahnen" ["spezifisch", "Fördermittel", "Stetigförderer", "angetrieben", "nicht angetrieben"] := {
+   "Bestehen aus hintereinander angeordneten, frei drehbaren Tragrollen";
+   "Der Achsabstand ist geringer als die halbe Stückgutlänge, um Kippen zu vermeiden";
+   "Je mehr Rollen, desto gleichförmiger die Förderung";
+   "Gibt es mit und ohne Antrieb";
+   "Gewichte der Fördergüter reichen bis zu 1 t";
+   "Bei angetriebenen Förderern müssen nicht alle Rollen angetrieben werden";
+   "Üblich sind Geschwindigkeiten von 0,3 m/s bis 1,0 m/s";
+   "Dienen zum Transport aller Arten von Stückgut, z.B. Kisten, Paletten usw.";
+   "Schwerere Güter können durch Kettenrollenförderer transportiert werden";
+   "Die Stückgüter müssen mindestens eine feste, ebene Fläche besitzen";
+   "Anwendungsgebiete sind: Zu- und Abführung bei Produktion oder Lager, In Kommissionierbereichen, Bei der Be- und Entladung von Verkehrsmitteln"
+  }
+}
+//Vorlesung Fördern_Stetigförderer, Folie 72, TL 2023

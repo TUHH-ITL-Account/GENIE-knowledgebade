@@ -1,0 +1,22 @@
+FDL Stetigförderer_Char {
+  CHAR "Stetigförderer" ["allgemein", "Fördermittel", "Stetigförderer"] := {
+    "Erzeugen einen kontinuierlichen Transportstrom an Gütern";
+    "Arbeiten meist im Dauerbetrieb";
+    "Be- und Entladung im Betrieb";
+    "Haben ein gutes Verhältnis von Eigenlast (Totlast) zu Nutzlast";
+    "Bedienpersonal ist oft nicht notwendig";
+    "Eignen sich sehr gut für die Förderung von Massenprodukten";
+    "Eine Kombination mit Produktionsprozessen ist leicht möglich, z.B. Kühlen oder Mischen";
+    "Haben tendenziell hohe Investitionen";
+    "Haben einen festgelegten Transportweg";
+    "Schwierigkeiten bei einer Fertigungsumstellung";
+    "Haben einen eng begrenzten Anwendungsbereich bezogen auf das Transportgut";
+    "Sind besonders geeignet bei hoher benötigter Förderleistung";
+    "Installation setzt ein bekanntes Layout voraus";
+    "Sind für unstandardisierte Ladehilfsmittel ungeeignet";
+    "Sind besonders geeignet bei längeren Förderzeiträumen und Förderstrecken";
+    "Sind besonders geeignet bei über einem längeren Zeitraum gleichbleibenden oder ähnlichen Transportgütern";
+    "Werden häufig in automatisierten Lagertechniken genutzt"
+  }
+}
+//Vorlesung Fördern_Stetigförderer, Folie 10/11, TL 2023

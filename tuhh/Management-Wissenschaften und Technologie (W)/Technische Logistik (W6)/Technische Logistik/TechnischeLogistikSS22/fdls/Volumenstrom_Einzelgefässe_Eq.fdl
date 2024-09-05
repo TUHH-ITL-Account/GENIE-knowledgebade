@@ -1,0 +1,24 @@
+FDL Volumenstrom_Einzelgefässe_Eq {
+  EQUATION V^^{.} = (V/ l_{"a"}) * v
+  WITH:
+    ALIASES:
+       V^^{.} = "Volumenstrom";
+       v = "Fördergeschwindigkeit";
+       l_{"a"} = "Abstand der Güter";
+       V = "Fördervolumen";
+
+    SPECIFICATIONS:
+       V^^{.} = "length"^3/"time";
+       v = "length"/"time";
+       l_{"a"} = "length";
+       V = "length"^3;
+       
+    REFERENCES:
+       V^^{.} = 0.05-1 m^3/s IN FLOAT[2];
+       v = 0.1-2 m/s IN FLOAT[1];
+       l_{"a"} = 0.1-1 m IN FLOAT[1];
+       V = 0.1-1 m^3 IN FLOAT[1];
+}
+// Vorlesung: Stetigförderer, Folie: 62, TL SS23
+//Vgl. Formelsammlung Seite 2
+

@@ -1,0 +1,12 @@
+FDL AKL_Char {
+  CHAR "AKL" ["spezifisch", "Lager", "Regallager"] := {
+    "Logistische Leistung von 200 – 300 Zeilen / h und 5.000 – 10.000 Artikel (SKU)";
+    "Kurze Auftragsdurchlaufzeiten";
+    "Hohe Investitionskosten";
+    "Geringe Betriebskosten";
+    "Gute Qualität wegen Benutzerführung und Quittierung (i.V.m. Pick by Light oder RF-Scanner)";
+    "Hohe Flexibilität";
+    "Mittlere Skalierbarkeit "
+  }
+}
+// Vorlesung: Kommissionieren, Folie: 96, TL SS23

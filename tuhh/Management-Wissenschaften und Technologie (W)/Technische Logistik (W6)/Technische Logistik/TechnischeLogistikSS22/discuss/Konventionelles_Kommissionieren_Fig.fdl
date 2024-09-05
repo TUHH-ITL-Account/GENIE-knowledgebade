@@ -1,0 +1,8 @@
+FDL konventionelles_Kommissionieren_Fig {
+  FIGURE
+  FILE
+    "Kommissionierung74.png"
+  LABELS {
+    "Konventionelles Kommissionieren" : (165;30) 
+  }
+}

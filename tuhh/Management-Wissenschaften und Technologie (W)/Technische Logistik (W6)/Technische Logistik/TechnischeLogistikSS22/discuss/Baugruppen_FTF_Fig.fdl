@@ -1,0 +1,16 @@
+FDL Baugruppen_FTF_Fig {
+  FIGURE
+  FILE
+    "Baugruppen_FTF.png"
+  LABELS {
+    "Bedienelemente" : (75;135) ;
+    "Datenübertragung" : (465;30) ;
+    "Warneinrichtungen" : (480;90) ;  
+    "Fahrzeugsteuerung" : (550;240) ;
+    "Energieversorgung" : (505;335) ;
+    "Sicherheitseinrichtungen" : (140;570) ;
+    "Fahrzeugrahmen/Fahrwerk" : (350;540) ;
+    "Lastaufnahmemittel" : (570;490) 
+  }
+}
+//nicht wichtig genug

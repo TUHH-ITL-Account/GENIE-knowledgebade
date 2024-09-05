@@ -1,0 +1,13 @@
+FDL Bandförderer_Char {
+  CHAR "Bandförderer" ["spezifisch", "Fördermittel", "Stetigförderer", "angetrieben"] := {
+    "Förderband gleitet auf Tragrollen oder einer glatten Unterlage";
+    "Werden mittels Reibschluss von einer Antriebstrommel angetrieben";
+    "Die für den Reibschluss notwendige Vorspannung hält den Durchhang zwischen Rollen gering und führt damit zu weniger Reibung";
+    "Sind normalerweise breiter als das Fördergut und schmaler als die Rolle";
+    "Werden zum Beispiel bei der Lkw Entladung, Schüttguttransport, Stückguttransport verwendet";
+    "Fördermenge bis 20.000 t/h";
+    "Geschwindigkeit bis 3 m/s";
+    "Förderlänge bis 500 m, in Ausnahmefällen bis 5.000 m";
+  }
+}
+//Vorlesung Fördern_Stetigförderer, Folie 117, TL SS23

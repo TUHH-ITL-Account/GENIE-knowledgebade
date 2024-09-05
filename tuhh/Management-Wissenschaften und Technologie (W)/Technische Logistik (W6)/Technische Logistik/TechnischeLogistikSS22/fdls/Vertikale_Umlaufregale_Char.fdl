@@ -1,0 +1,15 @@
+FDL Vertikale_Umlaufregale_Char {
+  CHAR "Vertikale Umlaufregale (Pasternoster)" ["spezifisch", "Lager", "Fördermittel", "Regallager"] := {
+    "Höhe bis 12m";
+    "Mittlere Investitionskosten";
+    "Mittlere Umschlagsleistung";
+    "Arbeitet nach dem Prinzip: Ware zur Person";
+    "Vertikal umlaufende Regalböden";
+    "Ein und Auslagerung auf mehreren Ebenen möglich";
+    "Häufig im Kommissioniersystem";
+    "Geeignet für eine große Artikelanzahl, kleine bis mittlere Mengen";
+    "Lagerung von KLT, Behältern und Langgut";
+    "Zugriffsgeschützt"
+  }
+}
+// Vorlesung: Lagern, Folie: 33, TL SS23

@@ -1,0 +1,20 @@
+FDL LängeneinheitbezogeneGutlast_Eq2 {
+  EQUATION m_{"lG"} = m^^{.} / v
+  WITH:
+    ALIASES:
+       m_{"lG"} = "auf Längeneinheit bezogene Gutlast";
+       m^^{.} = "Massenstrom";
+       v = "Fördergeschwindigkeit";
+
+    SPECIFICATIONS:
+       m_{"lG"} = "mass" / "length";
+       m^^{.} = "mass" / "time";
+       v = "length" / "time";
+
+    REFERENCES:
+       m_{"lG"} = 1 - 100 kg/m IN FLOAT[0];
+       m^^{.} =  2 - 100 kg/s IN FLOAT[0];
+       v = 0.5 - 2 m/s IN FLOAT[1];
+}
+// Tutorium: Lager: Lagersysteme und Auswahl eines Lagers, Nr.: 8, TL SS23
+//Vgl. Formelsammlung Seite 3

@@ -1,0 +1,8 @@
+FDL Sekundäre_Farben {
+  EXAMPLES "Primär Farben" := {
+    "Orange" {IMAGES:["orange.png"]} ;
+    "Lila" {IMAGES:["lila.png"]};
+    "Grün"  {IMAGES:["gruen.png"]}
+  }
+}
+// Dev-Debugging Fdl

@@ -1,0 +1,4 @@
+FDL Unstetigförderer_Def {
+  DEFINITION "Unstetigförderer" := "Unstetigförderer sind Förderanlagen, bei denen das Fördergut auf einem flexiblen oder definierten Förderweg von Aufgabe- zu Abgabestelle diskontinuierlich, mit wechselnder Geschwindigkeit bewegt wird."
+}
+// Vorlesung: Fördern_Unstetigförderer, Folie: 10, TL 2023

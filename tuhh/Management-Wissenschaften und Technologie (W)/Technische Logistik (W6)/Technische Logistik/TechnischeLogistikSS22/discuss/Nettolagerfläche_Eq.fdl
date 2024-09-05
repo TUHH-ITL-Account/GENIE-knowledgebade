@@ -1,0 +1,25 @@
+FDL Nettolagerfläche_Eq {
+  EQUATION f_{"NL"} = f_{"BL"} - ( ( ( 2 * t_{"RZ"} + b_{"AG"} ) * b_{"AG"} ) + ( l_{"RZ"} * b_{"AG"} ) ) 
+  WITH:
+    ALIASES:
+      f_{"NL"} = "Nettolagerfläche";
+      f_{"BL"} = "Bruttolagerfläche";
+      l_{"RZ"} = "Länge Regalzeile";
+      b_{"AG"} = "Arbeitsgangbreite";
+      t_{"RZ"} = "Tiefe Regalzeile";
+
+    SPECIFICATIONS:
+      f_{"NL"} = "length"^2;
+      f_{"BL"} = "length"^2;
+      l_{"RZ"} = "length";
+      b_{"AG"} = "length";
+      t_{"RZ"} = "length";
+    
+    REFERENCES:
+      f_{"NL"} = 0 - 550 m^2 IN FLOAT[2];
+      f_{"BL"} = 400 - 550 m^2 IN FLOAT[0];
+      l_{"RZ"} = 15 - 35 m IN FLOAT[0];
+      b_{"AG"} = 3.0 - 5.5 m IN FLOAT[1];
+      t_{"RZ"} = 1.0 - 2.0 IN FLOAT[1];
+}
+// Tutorium: Dimensionierung eines Lagers & Kommissionieren, Nr.: 9, TL SS23

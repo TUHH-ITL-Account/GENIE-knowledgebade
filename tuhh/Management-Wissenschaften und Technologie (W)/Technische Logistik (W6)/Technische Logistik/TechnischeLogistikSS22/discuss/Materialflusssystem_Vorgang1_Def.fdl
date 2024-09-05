@@ -1,0 +1,3 @@
+FDL Materialflusssystem_Vorgang1_Def {
+  DEFINITION "Transport Güter zur Bereitstellung" := "Transporte werden durchgeführt, um die Güter für den Kommissionierer zugriffsbereit zu machen."
+}

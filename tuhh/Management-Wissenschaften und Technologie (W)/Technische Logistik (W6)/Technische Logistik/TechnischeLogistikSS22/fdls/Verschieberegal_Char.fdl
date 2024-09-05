@@ -1,0 +1,11 @@
+FDL Verschieberegal_Char {
+  CHAR "Verschieberegale" ["spezifisch", "Lager", "Regallager"] := {
+    "Hoher Volumen- und Flächennutzungsgrad";
+    "Bewegung der Regalelemente auf Fahrschienen";
+    "Sie laufen elektrisch oder manuell";
+    "Manuelle Bedienung mit/ohne FFZ (bei KLT nicht zwingend mit FFZ)";
+    "Artikel mit sehr geringen Mengen";
+    "Fokus auf Flächeneffizienz"
+  }
+}
+// Vorlesung: Lagern, Folie: 31, TL SS23

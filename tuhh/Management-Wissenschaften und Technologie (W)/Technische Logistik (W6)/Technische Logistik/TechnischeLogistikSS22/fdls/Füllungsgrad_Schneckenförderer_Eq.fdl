@@ -1,0 +1,18 @@
+FDL Füllungsgrad_Schneckenförderer_Eq {
+  EQUATION @varphi_{"F"} = @varphi_{"max"} * (1 - @alpha * 0.04)
+  WITH:
+    ALIASES:
+      @varphi_{"F"} = "Füllungsgrad be Steigung";
+      @varphi_{"max"} = "maximaler Füllungsgrad";
+      @alpha = "Schneckenneigung";
+      
+    SPECIFICATIONS:
+      @alpha = "°";
+
+    REFERENCES:
+      @varphi_{"F"} = 0.09 - 0.15 IN FLOAT[2];
+      @varphi_{"max"} = 0.8 - 0.95 IN FLOAT[2];
+      @alpha = 1 - 22 IN FLOAT[0];   
+}
+//Vorlesung Fördern_Stetigförderer, Folie 49, TL 2023, VL.1.21
+//Vgl. Formelsammlung Seite 4

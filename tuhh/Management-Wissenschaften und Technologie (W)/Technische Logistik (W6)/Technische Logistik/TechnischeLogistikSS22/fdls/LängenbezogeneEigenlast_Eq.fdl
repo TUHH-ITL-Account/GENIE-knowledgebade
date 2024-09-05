@@ -1,0 +1,19 @@
+FDL LängenbezogeneEigenlast_Eq {
+  EQUATION m_{"lF"} = m_{"F"} / l_{"F"}
+  WITH:
+    ALIASES:
+      m_{"lF"} = "auf Länge bezogene Eigenlast der Bauteile";
+      m_{"F"} = "Masse der Reibung verursachenden Bauteilen";
+      l_{"F"} = "volle Länge der Förderstrecke des Förderers";
+
+    SPECIFICATIONS:
+      m_{"lF"} = "mass" / "length";
+      m_{"F"} = "mass";
+      l_{"F"} = "length";
+
+    REFERENCES:
+      m_{"lF"} = 1 - 100 kg / m IN FLOAT[2];
+      m_{"F"} = 10 - 1000 kg IN FLOAT[0];
+      l_{"F"} = 1 - 90 m IN FLOAT[0];
+}
+// Tutorium: Lager: Lagersysteme und Auswahl eines Lagers, Nr.: 8, TL SS23

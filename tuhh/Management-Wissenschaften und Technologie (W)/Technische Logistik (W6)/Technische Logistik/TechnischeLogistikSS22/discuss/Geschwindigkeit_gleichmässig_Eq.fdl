@@ -1,0 +1,10 @@
+FDL Geschwindigkeit_gleichmässig_Eq {
+  EQUATION v_{"t"} = v_{"0"} + a * t
+  WITH:
+    ALIASES:
+      a = "Beschleunigung, hier: a=const.";
+      t = "Zeit";
+      v_{"0"} = "Anfangsgeschwindigkeit zum Zeitpunkt t=0";
+      v_{"t"} = "Geschwindigkeit zum Zeitpunkt t";
+}
+//fehlt spec + ref

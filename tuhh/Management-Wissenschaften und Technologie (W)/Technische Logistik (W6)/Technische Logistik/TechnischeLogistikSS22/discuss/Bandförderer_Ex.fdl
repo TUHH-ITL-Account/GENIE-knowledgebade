@@ -1,0 +1,6 @@
+FDL Bandförderer_Ex {
+  EXAMPLES "Bandförderer" := {
+    "Ketten- oder Bandbecherwerk"; "Pendelbecherwerk"
+  }
+}
+//falsch

@@ -1,0 +1,8 @@
+FDL Zonenorganisation_Char {
+  CHAR "Zonenorganisation" := {
+    "Einheitlich: Alle Aufträge werden nach gleicher Kommissionierart abgewickelt.";
+    "Gemischt: Aufträge werden nach Typen, Größe usw. klassifiziert und nach unterschiedlichen Kommissionierarten bearbeitet."
+  }
+}
+//bei hierarchie FDL typ wieder aufnehmen
+// Vorlesung: Kommissionieren, Folie: 24, TL SS23

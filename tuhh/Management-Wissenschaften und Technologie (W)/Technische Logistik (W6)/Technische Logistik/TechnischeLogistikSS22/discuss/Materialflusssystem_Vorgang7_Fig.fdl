@@ -1,0 +1,9 @@
+FDL Materialflusssystem_Vorgang7_Fig {
+  FIGURE
+  FILE
+    "Kommissionierung35.png"
+  LABELS {
+    "Materialflusssystem" : (559;23) ;
+    "Rücktransport der angebrochenen Ladeeinheiten" : (188;100) ;
+  }
+}

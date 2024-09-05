@@ -1,0 +1,7 @@
+FDL Stetigförderer_Ex {
+  EXAMPLES "Stetigförderer" := {
+      "Stetigförderer für Schüttgut" {PROPERTIES:["Becherwerk","Schneckenförderer"]} ;
+      "Stetigförderer für Stückgut" {PROPERTIES:["Kreisförderer","Power and Free","Rollenförderer","Schwerkraftrollenförderer","Skids","S-Förderer","C-Förderer"]};
+      "Stetigförderer für Schütt – und Stückgut" {PROPERTIES:["Schwingrinne","Bandförderer","Rutschen"]}
+  }
+}

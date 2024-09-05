@@ -1,0 +1,9 @@
+FDL Wandertischförderer_Char {
+  CHAR "Wandertischförderer" ["spezifisch", "Fördermittel", "Stetigförderer", "angetrieben"] := {
+     "Besitzen starre Plattformen als Förderglieder";
+     "Die Plattformen sind nicht direkt miteinander gekoppelt";
+     "Eine Kette dient als Zugmittel an dem die Plattformen befestigt sind";
+     "Sind die Basis für viele Sortieranlagen, bei denen das Fördergut an beliebigen Stellen der Förderstrecke abgegeben werden kann (z.B. Querbandsorter)"
+  }
+}
+// Vorlesung: Stetigförderer, Folie: 130, TL SS23

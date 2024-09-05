@@ -1,0 +1,16 @@
+FDL Aufgeständerte_Förderzeuge_Char {
+  CHAR "Aufgeständerte Förderzeuge" ["allgemein", "Fördermittel", "Stetigförderer", "Unstetigförderer"] := {
+    "Operieren in definierter Höhe über dem Hallenboden";
+    "Die Fördergüter werden gewöhnlich über oder auf dem Fördermittel transportiert";
+    "Sind ortsfest";
+    "Können z.B. Bandförderer sein";
+    "Können z.B. Rutschen sein";
+    "Können z.B. Vertikalförderer sein";
+    "Können die Schwerkraft gut nutzen";
+  }
+  OPPOSES {
+    "Flurgebundene_Förderzeuge_Char";
+    "Flurfreie_Förderzeuge_Char"
+  }
+}
+// Vorlesung: Systematik, Folie: 11

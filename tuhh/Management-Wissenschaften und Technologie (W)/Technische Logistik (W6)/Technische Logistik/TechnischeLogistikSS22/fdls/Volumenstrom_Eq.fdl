@@ -1,0 +1,20 @@
+FDL Volumenstrom_Eq {
+  EQUATION V^^{.} = A * v
+  WITH:
+    ALIASES:
+       V^^{.} = "Volumenstrom";
+       v = "Fördergeschwindigkeit";
+       A = "Querschnittsfläche";
+
+   SPECIFICATIONS:
+       V^^{.} ="length"^3/"time";
+       v = "length"/"time";
+       A = "length"^2;
+
+    REFERENCES:
+       V^^{.} = 0.1 - 1 m/s IN FLOAT[1];
+       v = 0.05 - 1 m^3/s IN FLOAT[2];
+       A = 0.05 - 0.7 m^2 IN FLOAT[2];
+}
+// Vorlesung: Stetigförderer, Folie: 120, TL SS23
+//Vgl. Formelsammlung Seite 2

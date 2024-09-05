@@ -1,0 +1,22 @@
+FDL Unstetigförderer_Ex {
+  EXAMPLES "Unstetigförderer" ["spezifisch", "Fördermittel", "Maschine"] := {
+    "Gabelstapler";
+    "Schubmaststapler";
+    "Brückenkran"; 
+    "Hubwagen"; 
+    "Stapelkarre"; 
+    "Handwagen"; 
+    "Routenzug";
+    "Handwagen"; 
+    "Portalkran"; 
+    "Drehkran";
+    "Schubkarre";
+    "Autonomer Transportroboter";
+    "Aufzüge";
+    "Elektrohängebahnen";
+    "Regalbediengeräte"
+  }
+  OPPOSES {
+    "Stetigförderer_Ex"
+  }
+}

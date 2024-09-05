@@ -1,0 +1,11 @@
+FDL Wendelrutschen_Char {
+  CHAR "Wendelrutschen" ["spezifisch", "Fördermittel", "Stetigförderer", "nicht angetrieben"] := {
+    "Die Wendel begrenzen die Geschwindigkeit durch höhere Reibung";
+    "Zusätzlich zu Schwer- und Reibungskräften wirken hier auch Fliehkräfte";
+    "Die Fliehkraft drückt das Gut gegen die Seitenwand der Rutsche und erhöht so die Reibung";
+    "Es kommt zu einer Keilwirkung, da Reibungskräfte auf zwei Seiten des Gutes wirken";
+    "Der Neigungswinkel kann analog zur geraden Rutsche bestimmt werden";
+    "Insbesondere die Endgeschwindigkeit lässt sich schwer bestimmen"
+  }
+} 
+//Vorlesung: Stetigförderer, SS23, Folie 111

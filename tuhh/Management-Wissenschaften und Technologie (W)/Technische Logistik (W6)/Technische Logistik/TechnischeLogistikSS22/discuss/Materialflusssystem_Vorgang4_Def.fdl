@@ -1,0 +1,3 @@
+FDL Materialflusssystem_Vorgang4_Def {
+  DEFINITION "Entnahme" := "Die Entnahme der Güter erfolgt manuell, mechanisiert oder automatisiert in Form von Einzel- oder Sammelstückgütern."
+}

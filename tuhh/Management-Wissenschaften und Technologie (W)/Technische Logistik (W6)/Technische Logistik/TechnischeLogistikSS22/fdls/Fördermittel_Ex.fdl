@@ -1,0 +1,9 @@
+FDL Fördermittel_Ex {
+  EXAMPLES "Fördermittel" ["allgemein", "Fördermittel", "Stetigförderer", "Unstetigförderer"] := {
+  }
+  SUPERSET_OF {
+    "Stetigförderer_Ex";
+    "Unstetigförderer_Ex"
+  }
+}
+// Vorlesung: Systematik, Folie: 23, TL SS23

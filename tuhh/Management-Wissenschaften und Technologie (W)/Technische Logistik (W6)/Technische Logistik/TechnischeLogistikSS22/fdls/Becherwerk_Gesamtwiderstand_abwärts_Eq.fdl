@@ -1,0 +1,28 @@
+FDL Becherwerk_Gesamtwiderstand_abwärts_Eq {
+  EQUATION F_{"W"} = @mu_{"ges"} * (2 * m_{"lF"} + m_{"lG"}) * h * g - m_{"lG"} * h * g
+  WITH:
+    ALIASES:
+      F_{"W"} = "Kraft zur Überwindung des Reib‐ und Hubwiderstandes des Becherwerkes bei Abwärtsförderung";
+      @mu_{"ges"} = "Gesamt‐Reibungszahl des Fördersystems";
+      m_{"lF"} = "Auf die Längeneinheit bezogene Eigenlast (Becher und Band bzw. Ketten), die Reibungskräfte erzeugt";
+      m_{"lG"} = "Auf die Längeneinheit bezogene Gutlast";
+      h = "Höhe des Becherwerks";
+      g = "Erdbeschleunigung";
+
+    SPECIFICATIONS:
+      F_{"W"} = "N";
+      m_{"lF"} = "mass" / "length";
+      m_{"lG"} = "mass" / "length";
+      h = "length";
+      g = "length" / "time"^2;
+
+    REFERENCES:
+      F_{"W"} = -2000 - 3500 N IN FLOAT[0];
+      @mu_{"ges"} = 0.04 - 0.8 IN FLOAT[2];
+      m_{"lF"} = 5 - 15 kg/m IN FLOAT[1];
+      m_{"lG"} = 5 - 15 kg/m IN FLOAT[1];
+      h = 1 - 15 m IN FLOAT[1];
+      g = CONSTANT "Erdbeschleunigung";
+}
+// Vorlesung: Stetigförderer, Folie: 43, TL SS23, VL.1.18
+//Vgl. Formelsammlung Seite 3

@@ -1,0 +1,12 @@
+FDL Materialflusssystem_Vorgang2_Fig {
+  FIGURE
+  FILE
+    "Kommissionierung30.png"
+  LABELS {
+    "Materialflusssystem" : (572;22);
+    "Statisch / dezentral / geordnet" : (107;200) ;
+    "statisch / zentral / geordnet" : (423;198) ;
+    "Dynamisch / dezentral / un-/geordnet" : (752;195);
+    "Dynamisch / zentral / teilgeordnet" : (1047;195)
+  }
+}

@@ -1,0 +1,399 @@
+---
+fdlnodes:
+#
+# Systematik
+#
+  - Stetigförderer_Def:
+      id: fdl3
+      filename: Stetigförderer_Def.fdl
+      prereq: []
+  - Unstetigförderer_Def:
+      id: fdl5
+      filename: Unstetigförderer_Def.fdl
+      prereq: []
+  - Flurfreie_Förderzeuge_Char:
+      id: fdl1
+      filename: Flurfreie_Förderzeuge_Char.fdl
+      prereq: []
+  - Aufgeständerte_Förderzeuge_Char:
+      id: fdl1
+      filename: Aufgeständerte_Förderzeuge_Char.fdl
+      prereq: []
+  - Flurgebundene_Förderzeuge_Char:
+      id: fdl1
+      filename: Flurgebundene_Förderzeuge_Char.fdl
+      prereq: []
+#  - Systematik_zur_Klassifizierung_in_Fördertechnik_Ex:
+ #     id: fdl1
+  #    filename: Systematik_zur_Klassifizierung_in_Fördertechnik_Ex.fdl
+   #   prereq: []
+  - Fördermittel_Ex:
+      id: fdl1
+      filename: Fördermittel_Ex.fdl
+      prereq: []
+#  - Häufige_Fördermittel_für_Fördergüter_Ex:
+ #     id: fdl1
+  #    filename: Häufige_Fördermittel_für_Fördergüter_Ex.fdl
+   #   prereq: []
+  - Grundbegriffe_Fördertechnik_Fig:
+      id: fdl1
+      filename: Grundbegriffe_Fördertechnik_Fig.fdl
+      prereq: []
+  - Erdbeschleunigung_Konst:
+      id: fdl1
+      filename: Erdbeschleunigung_Konst.fdl
+      prereq: []
+
+#
+# Stetigförderer
+#
+  - Bandförderer_Char:
+      id: fdl1
+      filename: Bandförderer_Char.fdl
+      prereq: []
+  - Stetigförderer_Ex:
+      id: fdl3
+      filename: Stetigförderer_Ex.fdl
+      prereq: []
+#  - Bandförderer_Ex:
+ #     id: fdl2
+  #    filename: Bandförderer_Ex.fdl
+   #   prereq: []
+#  - Gesamtwiderstand_Eq1:
+ #     id: fdl3
+  #    filename: Gesamtwiderstand_Eq1.fdl
+   #   prereq: [Multiplikation, Addition]
+#  - Gesamtwiderstand_Eq2:
+ #     id: fdl4
+  #    filename: Gesamtwiderstand_Eq2.fdl
+   #   prereq: [Multiplikation, Addition]
+  - Ketten_oder_Bandbecherwerk_Char:
+      id: fdl6
+      filename: Ketten_oder_Bandbecherwerk_Char.fdl
+      prereq: []
+  - Kettenförderer_Char:
+      id: fdl7
+      filename: Kettenförderer_Char.fdl
+      prereq: []
+  - Kraft_Überwindung_Hubwiderstand_Eq:
+      id: fdl9
+      filename: Kraft_Überwindung_Hubwiderstand_Eq.fdl
+      prereq: [Multiplikation]
+  - Kraft_Überwindung_Reibwiderstand_Eq:
+      id: fdl10
+      filename: Kraft_Überwindung_Reibwiderstand_Eq.fdl
+      prereq: [Multiplikation, Addition]
+  - Kraft_Überwindung_Gesamtwiderstand_Eq:
+      id: fdl10
+      filename: Kraft_Überwindung_Gesamtwiderstand_Eq.fdl
+      prereq: [Multiplikation, Addition]
+  - Kreisförderer_Char:
+      id: fdl11
+      filename: Kreisförderer_Char.fdl
+      prereq: []
+  - Kreisförderer_TO:
+      id: fdl12
+      filename: Kreisförderer_TO.fdl
+      prereq: []
+  - LängeneinheitbezogeneGutlast_Eq1:
+      id: fdl13
+      filename: LängeneinheitbezogeneGutlast_Eq1.fdl
+      prereq: [Division]
+  - LängeneinheitbezogeneGutlast_Eq2:
+      id: fdl13
+      filename: LängeneinheitbezogeneGutlast_Eq2.fdl
+      prereq: [Division]
+  - LängenbezogeneEigenlast_Eq:
+      id: fdl13
+      filename: LängenbezogeneEigenlast_Eq.fdl
+      prereq: [Division]
+  - Massenstrom1_Eq:
+      id: fdl14
+      filename: Massenstrom1_Eq.fdl
+      prereq: [Multiplikation]
+  - Massenstrom2_Eq:
+      id: fdl14
+      filename: Massenstrom2_Eq.fdl
+      prereq: [Multiplikation]
+  - Nennleistung_des_Antriebs_Eq:
+      id: fdl15
+      filename: Nennleistung_des_Antriebs_Eq.fdl
+      prereq: [Multiplikation, Division]
+  - Becherwerk_Gesamtwiderstand_aufwärts_Eq:
+      id: fdl16
+      filename: Becherwerk_Gesamtwiderstand_aufwärts_Eq.fdl
+      prereq: [Multiplikation, Division]
+  - Nennleistung_Becherwerk_Eq:
+      id: fdl16
+      filename: Nennleistung_Becherwerk_Eq.fdl
+      prereq: [Multiplikation, Division]
+  - Becherwerk_Gesamtwiderstand_abwärts_Eq:
+      id: fdl16
+      filename: Becherwerk_Gesamtwiderstand_abwärts_Eq.fdl
+      prereq: [Multiplikation, Division]
+  - Pendelbecherwerk_Char:
+      id: fdl17
+      filename: Pendelbecherwerk_Char.fdl
+      prereq: []
+  - Power_und_Free_Förderer_Char:
+      id: fdl18
+      filename: Power_und_Free_Förderer_Char.fdl
+      prereq: []
+  - Rollenbahnen_Char:
+      id: fdl19
+      filename: Rollenbahnen_Char.fdl
+      prereq: []
+  - Rutschen_Char:
+      id: fdl20
+      filename: Rutschen_Char.fdl
+      prereq: []
+  - Schneckenförderer_TO:
+      id: fdl22
+      filename: Schneckenförderer_TO.fdl
+      prereq: []
+  - Füllungsgrad_Schneckenförderer_Eq:
+      id: fdl21
+      filename: Füllungsgrad_Schneckenförderer_Eq.fdl
+      prereq: []
+  - Förderleistung_Schneckenförderer_Eq:
+      id: fdl21
+      filename: Förderleistung_Schneckenförderer_Eq.fdl
+      prereq: []
+  - Schüttelrutsche_Char:
+      id: fdl23
+      filename: Schüttelrutsche_Char.fdl
+      prereq: []
+  - Schwerkraftrollenbahn_Char:
+      id: fdl24
+      filename: Schwerkraftrollenbahn_Char.fdl
+      prereq: []
+  - Schwerkraftrollenbahn_TO:
+      id: fdl25
+      filename: Schwerkraftrollenbahn_TO.fdl
+      prereq: []
+  - Schwingrinne_Char:
+      id: fdl27
+      filename: Schwingrinne_Char.fdl
+      prereq: []
+#  - Stetigförderer_Ex:
+ #     id: fdl28
+  #    filename: Stetigförderer_Ex.fdl
+   #   prereq: []
+  - Stetigförderer_Char:
+      id: fdl29
+      filename: Stetigförderer_Char.fdl
+      prereq: []
+  - Stückstrom_Eq:
+      id: fdl30
+      filename: Stückstrom_Eq.fdl
+      prereq: [Division]
+  - Volumenstrom_Einzelgefässe_Eq:
+      id: fdl31
+      filename: Volumenstrom_Einzelgefässe_Eq.fdl
+      prereq: [Division, Multiplikation]
+  - Volumenstrom_Eq:
+      id: fdl32
+      filename: Volumenstrom_Eq.fdl
+      prereq: [Multiplikation]
+  - Wandertischförderer_Char:
+      id: fdl33
+      filename: Wandertischförderer_Char.fdl
+      prereq: []
+  - Wendelrutschen_Char:
+      id: fdl34
+      filename: Wendelrutschen_Char.fdl
+      prereq: []
+  - Unstetigförderer_Char:
+      id: fdl34
+      filename: Unstetigförderer_Char.fdl
+      prereq: []
+  - Unstetigförderer_Ex:
+      id: fdl34
+      filename: Unstetigförderer_Ex.fdl
+      prereq: []
+  - TL_VarGroups:
+      id: fdl5
+      filename: TL_VarGroups.fdl
+
+wmnodes:
+################################################
+# Nicht-logistik
+################################################
+  - Zusatzwissen:
+      name: "Zusatzwissen"
+      id: andere
+      children: [Physik]
+      fdls: []
+  - Physik:
+      name: "Physik"
+      id: phy
+      children: []
+      fdls: [Erdbeschleunigung_Konst]
+      generationSource: false
+#
+# Organisatorischer Overhead
+#
+  - TUHH:
+      name: "TUHH"
+      id: tl1
+      children: [W]
+      fdls: []
+  - W:
+      name: "W Lehrstühle"
+      id: tl2
+      children: [W6-ITL]
+      fdls: []
+  - W6-ITL:
+      name: "W6 Institut für Technische Logistik"
+      id: tl3
+      children: [TL, Zusatzwissen]
+      fdls: []
+  - TL:
+      name: "Technische Logistik"
+      id: tl4
+      children: [Transporttechnik]
+      fdls: [TL_VarGroups]
+  - Transporttechnik:
+      name: "Transporttechnik"
+      id: asd
+      children: [Fördertechnik]
+      fdls: []
+#
+# Systematik
+#
+  - Fördertechnik:
+      name: "Fördertechnik"
+      children: [Fördermaschinen]
+      id: wm3
+      fdls: [Grundbegriffe_Fördertechnik_Fig]
+  - Fördermaschinen:
+      name: "Fördermaschinen"
+      id: wm4
+      children: [Fördersysteme]
+      fdls: []
+  - Fördersysteme:
+      name: "Fördersysteme"
+      id: wm5
+      children: [Förderzeuge]
+      fdls: [Fördermittel_Ex] #Häufige_Fördermittel_für_Fördergüter_Ex
+  - Stetigförderer:
+      name: "Stetigförderer"
+      id: wm6
+      children: [Kenngrößen, Schüttgut, Stückgut, Schütt- & Stückgut]
+      fdls: [Stetigförderer_Def, Stetigförderer_Char, Stetigförderer_Ex]
+  - Unstetigförderer:
+      name: "Unstetigförderer"
+      id: wm6
+      children: []
+      fdls: [Unstetigförderer_Char, Unstetigförderer_Ex]
+  - Förderzeuge:
+      name: "Förderzeuge"
+      id: wm6
+      children: [Stetigförderer, Unstetigförderer] #Durchsatz bei einer Europalette
+      fdls: [Flurgebundene_Förderzeuge_Char, Aufgeständerte_Förderzeuge_Char, Flurfreie_Förderzeuge_Char]
+#  - Flurgebundene Förderzeuge:
+#      name: "flurgebundene Förderzeuge"
+#      id: wm6
+#      children: []
+#      fdls: []
+#  - Aufgeständerte Förderzeuge:
+#      name: "aufgeständerte Förderzeuge"
+#      id: wm6
+#      children: []
+#      fdls: []
+#  - Flurfreie Förderzeuge:
+#      name: "Flurfreie Förderzeuge"
+#      id: wm6
+#      children: []
+#      fdls: []
+  #- Durchsatz bei einer Europalette:
+  #    name: "Durchsatz bei einer Europalette"
+  #    id: wm6
+  #    children: []
+  #    fdls: [Beladung_Epal_Eq, Beladung_Epal_Kartons_Eq] #Beladung_Epal_Durchsatz]
+#  - Systematik zur Klassifizierung:
+#      name: "Systematik zur Klassifizierung"
+#      id: wm6
+#      children: []
+#      fdls: [] #Systematik_zur_Klassifizierung_in_Fördertechnik_Ex
+#
+# Stetigförderer
+#
+  - Kenngrößen:
+      name: "Kenngrößen"
+      id: wm3
+      children: []
+      fdls: [Kraft_Überwindung_Hubwiderstand_Eq, Kraft_Überwindung_Reibwiderstand_Eq, Kraft_Überwindung_Gesamtwiderstand_Eq,  LängeneinheitbezogeneGutlast_Eq1, LängeneinheitbezogeneGutlast_Eq2, LängenbezogeneEigenlast_Eq, Massenstrom1_Eq, Massenstrom2_Eq, Nennleistung_des_Antriebs_Eq, Volumenstrom_Eq] #Gesamtwiderstand_Eq1, Gesamtwiderstand_Eq2
+  - Schüttgut:
+      name: "Schüttgut"
+      id: wm3
+      children: [Schneckenförderer, Becherwerke]
+      fdls: []
+  - Schneckenförderer:
+      name: "Schneckenförderer"
+      id: wm4
+      children: []
+      fdls: [Schneckenförderer_TO, Füllungsgrad_Schneckenförderer_Eq, Förderleistung_Schneckenförderer_Eq]
+  - Becherwerke:
+      name: "Becherwerke"
+      id: wm4
+      children: []
+      fdls: [Ketten_oder_Bandbecherwerk_Char, Pendelbecherwerk_Char, Becherwerk_Gesamtwiderstand_abwärts_Eq, Becherwerk_Gesamtwiderstand_aufwärts_Eq, Nennleistung_Becherwerk_Eq]
+  - Stückgut:
+      name: "Stückgut"
+      id: wm3
+      children: [Kreisförderer, Kettenförderer, Rollenförderer]
+      fdls: [Stückstrom_Eq, Volumenstrom_Einzelgefässe_Eq]
+  - Kreisförderer:
+      name: "Kreisförderer"
+      id: wm4
+      children: [Power & Free]
+      fdls: [Kreisförderer_Char, Kreisförderer_TO]
+  - Power & Free:
+      name: "Power & Free"
+      id: wm5
+      children: []
+      fdls: [Power_und_Free_Förderer_Char]
+  - Kettenförderer:
+      name: "Kettenförderer"
+      id: wm4
+      children: []
+      fdls: [Kettenförderer_Char]
+  - Rollenförderer:
+      name: "Rollenförderer"
+      id: wm4
+      children: [Schwerkraftrollenförderer]
+      fdls: [Rollenbahnen_Char]
+  - Schwerkraftrollenförderer:
+      name: "Schwerkraftrollenförderer"
+      id: wm5
+      children: []
+      fdls: [Schwerkraftrollenbahn_Char, Schwerkraftrollenbahn_TO]
+  - Schütt- & Stückgut:
+      name: "Schütt- & Stückgut"
+      id: wm3
+      children: [Schwingförderer, Rutschen, Bandförderer]
+      fdls: []
+  - Schwingförderer:
+      name: "Schwingförderer"
+      id: wm4
+      children: []
+      fdls: [Schwingrinne_Char]
+  - Rutschen:
+      name: "Rutschen"
+      id: wm4
+      children: []
+      fdls: [Rutschen_Char, Schüttelrutsche_Char, Wendelrutschen_Char]
+  - Bandförderer:
+      name: "Bandförderer"
+      id: wm4
+      children: []
+      fdls: [Bandförderer_Char, Wandertischförderer_Char]
+#
+# Spezielle FDLs
+#
+  - TL_VarGroups:
+      name: "Variablen Gruppen"
+      id: wm6
+      children: []
+      fdls: [TL_VarGroups]

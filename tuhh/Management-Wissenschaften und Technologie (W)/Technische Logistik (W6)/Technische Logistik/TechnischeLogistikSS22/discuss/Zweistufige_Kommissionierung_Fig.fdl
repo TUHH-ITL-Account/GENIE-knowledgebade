@@ -1,0 +1,9 @@
+FDL Zweistufige_Kommissionierung_Fig {
+  FIGURE
+  FILE
+    "Kommissionierung44.png"
+  LABELS {
+    "Artikelorientiert" : (160;23);
+    "Auftragsorientiert" : (160;330)
+  }
+}

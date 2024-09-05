@@ -1,0 +1,9 @@
+FDL Lagermittel_Ex {
+  EXAMPLES "Lagermittel" := {
+    "Bodenlager" {PROPERTIES:["Lagermittel wird unmittelbar auf dem Boden gelagert, ggf. gestapelt."]} ;
+    "Regallager" {PROPERTIES:["Lagermittel wird in Regalen gelagert."]} ;
+    "Statisches Lagersystem" {PROPERTIES:["Lagereinheit verbleibt zwischen Ein und Auslagerung am selben Ort, d.h. es wird keine Ortsveränderung durchgeführt."]} ;
+    "Dynamisches Lagersystem" {PROPERTIES:["Lagereinheiten werden während der Lagerung bewegt."]};
+    "Lagerung auf Fördermittel" {PROPERTIES:["Lagermittel wird auf Fördermittel vorgehalten."]}
+  }
+}

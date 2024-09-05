@@ -1,0 +1,8 @@
+FDL Manuelle_Kom_FTF_Einordnung_Fig {
+  FIGURE
+  FILE
+    "Kommissionierung78.png"
+  LABELS {
+    "Manuelle Kommissionierung mit FTF" : (216;51) 
+  }
+}

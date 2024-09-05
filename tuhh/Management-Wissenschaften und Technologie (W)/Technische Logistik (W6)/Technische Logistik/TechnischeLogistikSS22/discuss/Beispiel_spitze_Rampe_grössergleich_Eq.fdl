@@ -1,0 +1,19 @@
+FDL Beispiel_spitze_Rampe_grössergleich_Eq {
+  EQUATION s_{"g"} >= (v_{"max"}^2 / a)
+  WITH:
+    ALIASES:
+      s_{"g"} = "Strecke";
+      v_{"max"} = "max. Geschwindigkeit";
+      a = "Beschleunigung";
+
+    SPECIFICATIONS:
+      s_{"g"} = "length";
+      v_{"max"} = "length"/"time";
+      a = "length"/"time"^2;
+
+    REFERENCES:
+      s_{"g"} = 2 - 400 m IN FLOAT[0];
+      v_{"max"} = 1.0 - 2.5 m / s IN FLOAT[1];
+      a = 1.5 - 2.5 m /s^2 IN FLOAT[1];
+}
+//braucht template umformulierung

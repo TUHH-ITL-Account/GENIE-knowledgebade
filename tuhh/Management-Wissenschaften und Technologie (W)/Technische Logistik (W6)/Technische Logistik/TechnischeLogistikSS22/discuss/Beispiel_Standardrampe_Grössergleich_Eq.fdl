@@ -1,0 +1,20 @@
+FDL Beispiel_Standardrampe_Grössergleich_Eq {
+  EQUATION s_{"g"} >= (v_{"max"}^2 / a)
+  
+  WITH:
+    ALIASES:
+      v_{"max"} = "max. Geschwindigkeit";
+      a = "Beschleunigung";
+      s_{"g"} = "Srecke";
+
+    SPECIFICATIONS:
+      v_{"max"} = "length"/"time";
+      a = "length"/"time"^2;
+      s_{"g"} = "length";
+
+    REFERENCES:
+      s_{"g"} = 5 - 1200 m IN FLOAT[0];
+      a = 1.5 - 2.5 m /s^2 IN FLOAT[1];
+      v_{"max"} = 0.5 - 2.5 m / s IN FLOAT[1];
+}
+//braucht template umformulierung

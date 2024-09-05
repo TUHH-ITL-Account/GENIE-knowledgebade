@@ -1,0 +1,3 @@
+FDL Materialflusssystem_Vorgang6_Def {
+  DEFINITION "Abgabe" := "Nach der Entnahme der Artikel aus den Bereitstelleinheiten, werden diese als Entnahme- bzw. Kommissioniereinheit in eine Sammelvorrichtung oder auf ein Fördermittel abgegeben."
+}

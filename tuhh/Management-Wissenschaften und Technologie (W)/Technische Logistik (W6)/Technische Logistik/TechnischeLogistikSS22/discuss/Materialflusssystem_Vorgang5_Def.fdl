@@ -1,0 +1,3 @@
+FDL Materialflussystem_Vorgang5_Def {
+  DEFINITION "Transport Güter zur Abgabe" := "Wenn ein Transport der Entnahme- bzw. Kommissioniereinheit zur Abgabe notwendig wird, erfolgt diese durch den Kommissionierer oder ein Fördermittel."
+}

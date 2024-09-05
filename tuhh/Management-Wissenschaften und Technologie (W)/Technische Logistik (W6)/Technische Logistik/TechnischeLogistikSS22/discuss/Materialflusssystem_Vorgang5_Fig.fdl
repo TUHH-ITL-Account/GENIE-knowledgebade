@@ -1,0 +1,10 @@
+FDL Materialflusssystem_Vorgang5_Fig {
+  FIGURE
+  FILE
+    "Kommissionierung33.png"
+  LABELS {
+    "Materialflusssystem" : (518;21) ;
+    "Kommissionierer / 1-dimensional / mechanisiert" : (124;217) ;
+    "Fördermittel / 2-dimensional / automatisiert" : (671;216)
+  }
+}

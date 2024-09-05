@@ -1,0 +1,3 @@
+FDL Materialflusssystem_Vorgang2_Def {
+  DEFINITION "Bereitstellung" := "Die Bereitstellung regelt, wie die Güter für den Zugriff zur Verfügung gestellt werden."
+}

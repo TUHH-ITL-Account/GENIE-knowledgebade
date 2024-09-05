@@ -1,0 +1,10 @@
+FDL Pendelbecherwerk_Char {
+  CHAR "Pendelbecherwerk" ["spezifisch", "Fördermittel", "Stetigförderer", "angetrieben"] := {
+    "Becher sind zwischen zwei Ketten pendelnd angebracht";
+    "Senk- und waagrechte Förderstrecken möglich";
+    "Gutaufnahme erfolgt an definierter Stelle in dosierter Form";
+    "Gutabgabe durch Kippen der Becher";
+	  "Geschwindigkeiten zwischen 0,15 bis 0,5 m/s"
+  }
+}
+//Vorlesung Fördern_Stetigförderer, Folie 36, TL 2023

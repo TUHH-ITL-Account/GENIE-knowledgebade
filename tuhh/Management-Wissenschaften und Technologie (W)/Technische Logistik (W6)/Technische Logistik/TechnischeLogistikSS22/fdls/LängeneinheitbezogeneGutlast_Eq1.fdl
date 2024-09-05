@@ -1,0 +1,20 @@
+FDL LängeneinheitbezogeneGutlast_Eq1 {
+  EQUATION m_{"lG"} = m_{"G"} / l_{"G"}
+  WITH:
+    ALIASES:
+       m_{"lG"} = "auf Längeneinheit bezogene Gutlast";
+       m_{"G"} = "Summe der Massen des Gutes auf dem Förderer";
+       l_{"G"} = "Länge der Förderstrecke";
+
+    SPECIFICATIONS:
+       m_{"lG"} = "mass" / "length";
+       m_{"G"} = "mass";
+       l_{"G"} = "length";
+
+    REFERENCES:
+       m_{"lG"} = 100 - 100 kg / m IN FLOAT[2];
+       m_{"G"} = 200 - 1000 kg IN FLOAT[0];
+       l_{"G"} = 2 - 90 m IN FLOAT[0];
+}
+// Tutorium: Lager: Lagersysteme und Auswahl eines Lagers, Nr.: 8, TL SS23
+//Vgl. Formelsammlung Seite 7

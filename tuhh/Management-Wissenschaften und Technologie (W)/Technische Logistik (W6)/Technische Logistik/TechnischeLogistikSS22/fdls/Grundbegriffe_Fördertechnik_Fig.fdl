@@ -1,0 +1,13 @@
+FDL Grundbegriffe_Fördertechnik_Fig {
+  FIGURE
+  FILE
+    "SystematikA1.png"
+  LABELS {
+    "Senke" : (547;116) ;
+    "Fördern" : (274;115) ;
+    "Fördertechnik" : (175;188);
+    "Fördermittel": (278;22);
+    "Quelle": (52;118);
+  }
+}
+// Maple 1: Systematik, Aufgabe 1, TL SS23

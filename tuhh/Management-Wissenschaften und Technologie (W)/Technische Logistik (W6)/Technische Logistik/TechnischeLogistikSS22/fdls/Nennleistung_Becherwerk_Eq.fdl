@@ -1,0 +1,25 @@
+FDL Nennleistung_Becherwerk_Eq {
+  EQUATION P_{"N"} = ((F_{"W"} + F_{"S"}) * v) / @eta 
+  WITH:
+    ALIASES:
+      P_{"N"} = "Nennleistung";
+      F_{"W"} = "Kraft zur Überwindung des Gesamtwiderstandes";
+      F_{"S"} = "Kraft zur Überwindung des Schöpfwiderstandes";
+      @eta = "Wirkungsgrad";
+      v = "Fördergeschwindigkeit";
+
+    SPECIFICATIONS:
+      P_{"N"} = "W";
+      F_{"W"} = "N";
+      F_{"S"} = "N";
+      v = "length"/"time";
+
+    REFERENCES:
+      P_{"N"} = 1400 - 50000 W IN FLOAT[0];
+      F_{"W"} = 2000 - 4000 N IN FLOAT[0];
+      F_{"S"} = 100 - 2000 N IN FLOAT[0];
+      v = 0.3 - 5 m / s IN FLOAT[1];
+      @eta = 0.6 - 0.9 IN FLOAT[2];
+}
+// Vorlesung: Stetigförderer, Folie: 44, TL SS23, VL.1.19
+//Vgl. Formelsammlung Seite 3

@@ -1,0 +1,31 @@
+FDL Kraft_Überwindung_Reibwiderstand_Eq {
+  EQUATION F_{"WR"} = @mu_{"ges"} * (m_{"lF"} * l_{"F"} + m_{"lG"} * l_{"G"}) * g
+  WITH:
+    ALIASES:
+       F_{"WR"} = "Kraft zur Überwindung des Reibwiderstandes";
+       m_{"lF"} = "auf Längeneinheit bezogene Eigenlast der Bauteile des Förderers";
+       m_{"lG"} = "auf die Längeneinheit bezogene Gutlast";
+       @mu_{"ges"} = "Gesamtreibungszahl des Fördersystems";
+       g = "Erdbeschleunigung";
+       l_{"F"} = "Länge des Förderbandes";
+       l_{"G"} = "Länge der Strecke, über die das Gut transportiert wird";
+
+    SPECIFICATIONS:
+       F_{"WR"} = "N";
+       m_{"lF"} = "mass" / "length";
+       g = "length" / "time"^2;
+       l_{"G"} = "length";
+       l_{"F"} = "length";
+       m_{"lG"} = "mass" / "length";
+
+    REFERENCES:
+       F_{"WR"} = 100 - 3000 N IN FLOAT[0];
+       m_{"lF"} = 1 - 30 kg / m IN FLOAT[0];
+       g = CONSTANT "Erdbeschleunigung";
+       l_{"G"} = 1 - 90 m IN FLOAT[1];
+       l_{"F"} = 1 - 90 m IN FLOAT[0];
+       m_{"lG"} = 1 - 30 kg / m IN FLOAT[0];
+       @mu_{"ges"} = 1 - 10 IN FLOAT[1];
+}
+// Tutorium: Unstetigförderer: Gabelstapler & Kran, Nr.: 7, TL SS23
+//Vgl. Formelsammlung Seite 3

@@ -1,0 +1,11 @@
+FDL Rutschen_Char {
+  CHAR "Rutschen" ["spezifisch", "Fördermittel", "Stetigförderer", "nicht angetrieben"] := {
+    "Das Fördergut gleitet durch die Schwerkraft auf der Förderbahn";
+    "Können verschiedene Konstruktionsformen besitzen: gerade oder wendelförmig, offen oder geschlossen";
+    "Werden oft mit Kunststoffbelägen ausgestattet,um die Reibung zu verringern";
+    "Einsatzfälle sind, z.B.:Sammelstellen nach der Kommissionierung, Vertikaltransport in untere Stockwerke";
+    "Bevorzugt werden Pakete oder Päckchen befördert";
+    "Auch Schüttgut kann gefördert werden"
+  }
+}
+//Vorlesung Fördern_Stetigförderer, Folie 105, TL 2023

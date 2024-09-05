@@ -1,0 +1,36 @@
+FDL TL_VarGroups {
+  VAR_GROUPS {
+    // Stetigförderer
+    {V^^{.}:Förderleistung_Schneckenförderer_Eq ; V^^{.}:Volumenstrom_Einzelgefässe_Eq ; V^^{.}:Volumenstrom_Eq ; V^^{.}:Massenstrom2_Eq} //Förderleistung - Volumenstrom
+    {D:Förderleistung_Schneckenförderer_Eq} //Schneckenförderer - Schneckenaußendurchmesser
+    {s:Förderleistung_Schneckenförderer_Eq} //Schneckenförderer - Schneckensteigung
+    {n:Förderleistung_Schneckenförderer_Eq} //Schneckenförderer - Drehzahl der Schnecke
+    {@varphi:Förderleistung_Schneckenförderer_Eq ; @varphi_{"F"}:Füllungsgrad_Schneckenförderer_Eq} //Schneckenförderer - Füllungsgrad
+    {c:Förderleistung_Schneckenförderer_Eq} //Schneckenförderer - Geschwindigkeitsbeiwert für das Zurückbleiben des Fördergutes gegenüber der Schnecke
+    {@varphi_{"max"}:Füllungsgrad_Schneckenförderer_Eq} // Schneckenförderer - maximaler Füllungsgrad
+    {@alpha:Füllungsgrad_Schneckenförderer_Eq} // Neigung des Stetigförderers
+    {m^^{.}_{"St"}:Stückstrom_Eq} // Stückstrom
+    {v:Stückstrom_Eq ; v:Volumenstrom_Einzelgefässe_Eq ; v:Volumenstrom_Eq ; v:Nennleistung_des_Antriebs_Eq ; v:Nennleistung_Becherwerk_Eq ; v:Massenstrom1_Eq ; v:LängeneinheitbezogeneGutlast_Eq2} // Fördergeschwindigkeit
+    {l_{"a"}:Stückstrom_Eq ; l_{"a"}:Volumenstrom_Einzelgefässe_Eq ; l_{"a"}:Massenstrom1_Eq} // Abstand der Güter
+    {V:Volumenstrom_Einzelgefässe_Eq} // Volumen des Gutes
+    {A:Volumenstrom_Eq} // Gutquerschnitt
+    {P_{"N"}:Nennleistung_des_Antriebs_Eq ; P_{"N"}:Nennleistung_Becherwerk_Eq} // Nennleistung des Antriebs
+    {F_{"W"}:Nennleistung_des_Antriebs_Eq ; F_{"W"}:Nennleistung_Becherwerk_Eq} // Kraft zur Überwindung des Gesamtwiderstandes
+    {@eta:Nennleistung_des_Antriebs_Eq ; @eta:Nennleistung_Becherwerk_Eq} // Wirkungsgrad des Antriebs
+    {F_{"S"}:Nennleistung_Becherwerk_Eq} // Kraft z. Überwindung des Schöpfwiderstandes
+    {m^^{.}:Massenstrom2_Eq ; m^^{.}:Massenstrom1_Eq ; m^^{.}:LängeneinheitbezogeneGutlast_Eq2} // Massenstrom
+    {@rho_{"s"}:Massenstrom2_Eq} // Schüttdichte
+    {m:Massenstrom1_Eq ; m_{"G"}:LängeneinheitbezogeneGutlast_Eq1} // durchschnittliche Masse
+    {m_{"lG"}:LängeneinheitbezogeneGutlast_Eq2 ; m_{"lG"}:LängeneinheitbezogeneGutlast_Eq1 ; m_{"lG"}:Kraft_Überwindung_Reibwiderstand_Eq ; m_{"lG"}:Kraft_Überwindung_Hubwiderstand_Eq ; m_{"lG"}:Becherwerk_Gesamtwiderstand_aufwärts_Eq ; m_{"lG"}:Becherwerk_Gesamtwiderstand_abwärts_Eq} // auf Längeneinheit bezogene Gutlast
+    {l_{"G"}:LängeneinheitbezogeneGutlast_Eq1 ; l_{"G"}:Kraft_Überwindung_Reibwiderstand_Eq} // Länge der Strecke, über die das Gut transportiert wird
+    {m_{"lF"}:LängenbezogeneEigenlast_Eq ; m_{"lF"}:Kraft_Überwindung_Reibwiderstand_Eq ; m_{"lF"}:Becherwerk_Gesamtwiderstand_aufwärts_Eq ; m_{"lF"}:Becherwerk_Gesamtwiderstand_abwärts_Eq} // auf Länge bezogene Eigenlast der Bauteile
+    {m_{"F"}:LängenbezogeneEigenlast_Eq} // Masse der Reibung verursachenden Bauteilen
+    {l_{"F"}:LängenbezogeneEigenlast_Eq ; l_{"F"}:Kraft_Überwindung_Reibwiderstand_Eq} // volle Länge der Förderstrecke des Förderers
+    {F_{"WR"}:Kraft_Überwindung_Reibwiderstand_Eq ; F_{"reib"}:Kraft_Überwindung_Gesamtwiderstand_Eq} // Kraft zur Überwindung des Reibwiderstandes
+    {@mu_{"ges"}:Kraft_Überwindung_Reibwiderstand_Eq ; @mu_{"ges"}:Becherwerk_Gesamtwiderstand_aufwärts_Eq ; @mu_{"ges"}:Becherwerk_Gesamtwiderstand_abwärts_Eq} // Gesamtreibungszahl des Fördersystems
+    {F_{"ges"}:Kraft_Überwindung_Gesamtwiderstand_Eq ; F_{"W"}:Becherwerk_Gesamtwiderstand_aufwärts_Eq ; F_{"W"}:Becherwerk_Gesamtwiderstand_abwärts_Eq} // Benötigte Kraft zur Überwindung des Gesamtwiderstandes des Förderers
+    {F_{"hub"}:Kraft_Überwindung_Gesamtwiderstand_Eq ; F_{"WH"}:Kraft_Überwindung_Hubwiderstand_Eq} // Benötigte Kraft zur Überwindung des Hubwiderstandes des Förderers
+    {h:Becherwerk_Gesamtwiderstand_aufwärts_Eq ; h:Becherwerk_Gesamtwiderstand_abwärts_Eq} // Höhe des Becherwerks
+    {h:Kraft_Überwindung_Hubwiderstand_Eq} //Überwundene Höhe eines geneigten Stetigförderers
+  }
+}

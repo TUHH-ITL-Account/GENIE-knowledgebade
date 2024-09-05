@@ -1,0 +1,19 @@
+FDL Kraft_Überwindung_Gesamtwiderstand_Eq {
+  EQUATION F_{"ges"} = F_{"reib"} + F_{"hub"}
+  WITH:
+    ALIASES:
+      F_{"ges"} = "Benötigte Kraft zur Überwindung des Gesamtwiderstandes des Förderers";
+      F_{"reib"} = "Benötigte Kraft zur Überwindung des Reibwiderstandes des Förderers";
+      F_{"hub"} = "Benötigte Kraft zur Überwindung des Hubwiderstandes des Förderers";
+
+    SPECIFICATIONS:
+      F_{"ges"} = "N";
+      F_{"reib"} = "N";
+      F_{"hub"} = "N";
+
+    REFERENCES:
+      F_{"ges"} = 1500 - 3000 N IN FLOAT[0];
+      F_{"reib"} = 100 - 1500 N IN FLOAT[0];
+      F_{"hub"} = 100 - 1500 N IN FLOAT[0];
+}
+// Tutorium: Unstetigförderer: Gabelstapler & Kran, Nr.: 7, TL SS23

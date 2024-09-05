@@ -1,0 +1,12 @@
+FDL Ketten_oder_Bandbecherwerk_Char {
+  CHAR "Ketten- oder Bandbecherwerk" ["spezifisch", "Fördermittel", "Stetigförderer", "angetrieben"] := {
+     "Becher sind fest an einer oder mehreren Ketten bzw. an einem Band angebracht";
+     "Förderung von Gütern über steile oder senkrechte Förderstrecken";
+     "Gut-Aufnahme an unterer Umlenkstelle";
+     "Untere Umlenkstelle als Spannstelle";
+     "Gut-Abgabe an oberer Umlenkstelle";
+     "Antrieb an oberer Umlenkstelle mit Getriebemotor mit Rücklaufsperre";
+     "Fördergeschwindigkeit:Bandbecherwerke 1 bis 3 m / s, Kettenbecherwerke 0,3 bis 1,0 m / s"
+  }
+}
+// Vorlesung: Stetigförderer, Folie: 36, TL SS23

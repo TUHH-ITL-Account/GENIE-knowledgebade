@@ -1,0 +1,8 @@
+FDL Komstation_mit_Umlauf_Fig {
+  FIGURE
+  FILE
+    "Kommissionierung85.png"
+  LABELS {
+    "Kommissionierstation mit Horizontal-Umlaufregalanbindung" : (358;28) 
+  }
+}

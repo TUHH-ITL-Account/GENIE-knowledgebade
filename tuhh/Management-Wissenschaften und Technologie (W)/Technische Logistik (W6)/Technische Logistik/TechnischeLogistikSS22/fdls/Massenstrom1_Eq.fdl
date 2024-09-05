@@ -1,0 +1,23 @@
+FDL Massenstrom1_Eq {
+  EQUATION m^^{.} = (m / l_{"a"}) * v
+  WITH:
+    ALIASES:
+      m^^{.} = "Massenstrom";
+      l_{"a"} = "Gutabstand";
+      m = "Durchschnittliche Masse";
+      v = "Fördergeschwindigkeit";
+
+    SPECIFICATIONS:
+      m^^{.} = "mass"/"time";
+      m = "mass";
+      l_{"a"} = "length";
+      v = "length"/"time";
+
+    REFERENCES:
+      m^^{.} = 1 - 10 kg/s IN FLOAT[1];
+      m = 5 - 10 kg IN FLOAT[2];
+      l_{"a"} = 0.5 - 2 m IN FLOAT[1];
+      v = 0.5 - 5 m/s IN FLOAT[1];
+}
+// Vorlesung: Stetigförderer, Folie: 13, TL SS23
+//Vgl. Formelsammlung Seite 2

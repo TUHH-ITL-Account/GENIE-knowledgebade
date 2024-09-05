@@ -1,0 +1,12 @@
+FDL Materialflusssystem_Vorgang3_Fig {
+  FIGURE
+  FILE
+    "Kommissionierung31.png"
+  LABELS {
+    "Materialflusssystem" : (582;21) ;
+    "Keine Fortbewegung" : (120;184) ;
+    "Fortbewegung / 1-dimensional / manuell" : (433;185);
+    "Fortbewegung / 2-dimensional / mechanisiert" : (714;187);
+    "Fortbewegung / 3-dimensional / automatisiert" : (1030;183);
+  }
+}

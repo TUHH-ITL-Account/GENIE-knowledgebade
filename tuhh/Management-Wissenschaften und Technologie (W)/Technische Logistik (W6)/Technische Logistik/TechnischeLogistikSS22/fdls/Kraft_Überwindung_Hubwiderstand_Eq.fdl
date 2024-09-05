@@ -1,0 +1,23 @@
+FDL Kraft_Überwindung_Hubwiderstand_Eq {
+  EQUATION F_{"WH"} = m_{"lG"} * g * h
+  WITH:
+    ALIASES:
+      F_{"WH"} = "Kraft zur Überwindung des Hubwiderstandes";
+      m_{"lG"} = "auf die Längeneinheit bezogene Gutlast";
+      g = "Erdbeschleunigung";
+      h = "Höhenüberwindung des Förderers";
+
+    SPECIFICATIONS:
+      F_{"WH"} = "N";
+      m_{"lG"} = "mass" / "length";
+      g = "length" / "time"^2;
+      h = "length";
+
+    REFERENCES:
+      F_{"WH"} = 100 - 10000 N IN FLOAT[0];
+      m_{"lG"} = 1 - 30 kg / m IN FLOAT[0];
+      g = CONSTANT "Erdbeschleunigung";
+      h = 1 - 10 m IN FLOAT[0];
+}
+// Vorlesung: Stetigförderer Folie 19, TL SS21
+//Vgl. Formelsammlung Seite 3

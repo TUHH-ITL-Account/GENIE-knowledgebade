@@ -1,0 +1,27 @@
+FDL Förderleistung_Schneckenförderer_Eq {
+  EQUATION V^^{.} = (3.141 * D^2)/4 * s * n * @varphi * c
+  WITH:
+    ALIASES:
+      V^^{.} = "Förderleistung des Schneckenförderers";
+      D = "Schneckenaußendurchmesser";
+      s = "Schneckensteigung";
+      n = "Drehzahl der Schnecke";
+      @varphi = "Füllungsgrad";
+      c = "Geschwindigkeitsbeiwert";
+      
+    SPECIFICATIONS:
+      V^^{.} = "length"^3 / "time";
+      D = "length";
+      s = "length";
+      n = 1 / "time";
+
+    REFERENCES:
+      V^^{.} = 0.003 - 150 m^3/s IN FLOAT[2];
+      D = 0.3 - 1 m IN FLOAT[2];
+      s = 0.1 - 2 m IN FLOAT[1];
+      n = 10 - 100 1/m IN FLOAT[0];
+      @varphi = 0.1 - 0.95 IN FLOAT[2];
+      c = 0.5 - 1 IN FLOAT[2];   
+}
+//Vorlesung Fördern_Stetigförderer, Folie 48, TL 2023 VL.1.20
+//Vgl. Formelsammlung Seite 4

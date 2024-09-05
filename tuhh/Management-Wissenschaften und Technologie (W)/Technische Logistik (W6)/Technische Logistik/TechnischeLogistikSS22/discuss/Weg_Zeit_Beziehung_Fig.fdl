@@ -1,0 +1,9 @@
+FDL Weg_Zeit_Beziehung_Fig {
+  FIGURE
+  FILE
+    "Kommissionierung107.png"
+  LABELS {
+    "Weg-Zeit-Diagramm" : (149;14) ;
+    "Geschwindigkeits-Zeit-Diagramm" : (159;294) 
+  }
+}

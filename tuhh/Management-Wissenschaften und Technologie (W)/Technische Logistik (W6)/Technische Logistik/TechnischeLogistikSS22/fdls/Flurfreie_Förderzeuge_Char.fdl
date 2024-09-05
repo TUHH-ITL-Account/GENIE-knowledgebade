@@ -1,0 +1,14 @@
+FDL Flurfreie_Förderzeuge_Char {
+  CHAR "Flurfreie Förderzeuge" ["allgemein", "Fördermittel", "Stetigförderer", "Unstetigförderer"] := {
+    "Können an der Decke befestigt sein";
+    "Können auf Schienen verfahren, welche an der Decke oder der Wand montiert wurden";
+    "Die Förderebene liegt über der Arbeitsebene";
+    "Besonders geeignet für schwere und sperrliche Güter";
+    "Besonders geeignet für lange Güter";
+  }
+  OPPOSES {
+    "Aufgeständerte_Förderzeuge_Char";
+    "Flurgebundene_Förderzeuge_Char"
+  }
+}
+// Vorlesung: Systematik, Folie: 11, TL SS23

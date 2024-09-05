@@ -1,0 +1,20 @@
+FDL Stückstrom_Eq {
+  EQUATION m^^{.}_{"St"} = v / l_{"a"}
+  WITH:
+    ALIASES:
+       m^^{.}_{"St"} = "Stückstrom";
+       v = "Fördergeschwindigkeit";
+       l_{"a"} = "Abstand der Güter";
+
+    SPECIFICATIONS:
+       m^^{.}_{"St"} = "Stück"/"time";
+       v = "length"/"time";
+       l_{"a"} = "length";
+
+    REFERENCES:
+       m^^{.}_{"St"} = 0.05 - 4 Stück/s IN FLOAT;
+       v = 0.5 - 3 m/s IN FLOAT[1];
+       l_{"a"} = 1 - 10 m IN FLOAT[1];
+}
+// Vorlesung: Fördern_Stetigförderer, Folie: 16, TL 2023
+// //Vgl. Formelsammlung Seite 2

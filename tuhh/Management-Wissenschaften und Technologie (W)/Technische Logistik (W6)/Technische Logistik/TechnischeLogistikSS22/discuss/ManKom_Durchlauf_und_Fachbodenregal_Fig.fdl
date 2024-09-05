@@ -1,0 +1,8 @@
+FDL manKom_Durchlauf_und_Fachbodenregal_Fig {
+  FIGURE
+  FILE
+    "Kommissionierung81.png"
+  LABELS {
+    "Manuelle  Kommissionierung - Kombination aus Durchlaufregal und Fachbodenregal" : (411;30) 
+  }
+}
